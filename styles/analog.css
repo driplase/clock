@@ -8,11 +8,13 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  overflow: auto;
+  overflow: hidden;
   transition: transform .32s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .content {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   align-items: center;
   justify-content: center;
 }

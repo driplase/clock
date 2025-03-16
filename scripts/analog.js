@@ -30,7 +30,7 @@ setInterval(() => {
 
 function rsz() {
   const mins = Math.min(window.innerWidth, window.innerHeight)
-  document.querySelector('.content').style.transform = `scale(${mins / 950})`;
+  document.querySelector('.content').style.transform = ` translateY(-50%) scale(${mins / 950})`;
 }
 
 window.addEventListener('resize', rsz)
