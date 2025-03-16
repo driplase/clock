@@ -1,0 +1,38 @@
+<html prefix="og: https://ogp.me/ns#">
+  <head>
+    <title>
+      analog - laseClock
+    </title>
+    <link
+      rel="stylesheet"
+      href="./styles/analog.css"
+    >
+    <meta
+      property="og:title"
+      content="analog - laseClock"
+    >
+    <meta
+      property="og:description"
+      content="A simple alanog clock."
+    >
+  </head>
+  <body>
+    <noscript>
+      This website will not work without JavaScript.
+      <style>
+        .content, object {
+          display: none;
+        }
+      </style>
+    </noscript>
+    <div class="content">
+      <object data="./assets/base.svg" class="base"></object>
+      <div class="hands">
+        <object data="./assets/hour_hand.svg"   class="hand hour"></object>
+        <object data="./assets/minute_hand.svg" class="hand minute"></object>
+        <object data="./assets/second_hand.svg" class="hand second"></object>
+      </div>
+    </div>
+    <script src="./scripts/analog.js"></script>
+  </body>
+</html>

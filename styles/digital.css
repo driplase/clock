@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Consolas, 'Ubuntu Sans Mono', Inconsolata, monospace;
+  background-color: #111222;
+  color: white;
+  white-space: pre-wrap;
+  text-shadow: 0 0 12px white;
+  overflow: hidden;
+}
+
+#clock {
+  font-size: 7vw;
+  transition: .5s cubic-bezier(0.16, 1, 0.3, 1);
+}

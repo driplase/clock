@@ -1,0 +1,55 @@
+<html prefix="og: https://ogp.me/ns#">
+  <head>
+    <title>
+      laseClock
+    </title>
+    <style>
+      body {
+        background: #111222;
+        color: white;
+        margin: 0;
+      }
+      .collection {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+      iframe {
+        border: none;
+        width: 100%;
+        background: none;
+      }
+      .analog {
+        height: 60%;
+      }
+    </style>
+    <meta
+      property="og:title"
+      content="laseClock"
+    >
+    <meta
+      property="og:description"
+      content="Simple analog and digital clocks."
+    >
+    <noscript>
+      This website will not work without JavaScript.
+      <style>
+        body { display: none; }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <div class="collection">
+      <iframe 
+        src="./digital.html"
+        class="digital"
+      ></iframe>
+      <iframe
+        src="./analog.html"
+        class="analog"
+      ></iframe>
+    </div>
+  </body>
+</html>
